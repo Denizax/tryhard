@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>date picker: HTML 5</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+</head>
+
+
+<body>
+<div class="navigation">
+    <ul>
+        <li><a href="salads.html">Salads</a></li>
+        <li><a href="dishes.html">Dishes</a></li>
+        <li><a href="desserts.html">Desserts</a></li>
+    </ul>
+</div>
+<div class="input">
+
+    <form>
+        <label> When do you want to<br> cook this meal?</label> <br>
+
+        <input type="date" name="schedule_date" id="schedule_date"/> <br>
+        <input type="time" name="schedule_time" id="schedule_time"/>
+        <br>
+
+
+        <button id="schedule_btn">SCHEDULE THE MEAL!</button>
+
+    </form>
+
+</div>
+
+<script>
+
+   document.addEventListener('deviceready', onDeviceReady.bind(this), false);
+        
+    function onDeviceReady() {   
+        
+        window.alert("called");
+        
+        cordova.plugins.notification.local.schedule({
+            id: 1,
+            title: "Notification",
+            firstAt:new Date(),
+            message: "Denica Zaharieva",
+            every: "week"
+        });
+    };
+
+</script>
+</body>
+
+
+</html>

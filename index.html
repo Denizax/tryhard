@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title>Main navigation</title>
+</head>
+<body>
+
+
+
+<ul class="nav" id="categories-container"> <img src="img/MEALPREPLOGO.png" alt=""></ul>
+<script>
+
+    $(document).ready(function () {
+
+        //source: https://stackoverflow.com/questions/7346563/loading-local-json-file
+        var data = $.getJSON("js/data.json", function (json) {
+
+            $.each(json, function (index, item) {
+                //console.log(value);
+                //categories.push(value);
+                $("#categories-container").append("<li><a href='category.html?id="
+                    + item.id + "'>" + item.name + "</a></li></br>");
+
+            });
+
+        });
+
+
+    });
+
+    
+document.addEventListener('deviceready', onDeviceReady.bind(this), false);
+        function onDeviceReady() {    
+        cordova.plugins.notification.local.schedule({
+    id: 1,
+    title: "Notification",
+    firstAt:new Date(),
+    message: "Denica Zaharieva",
+    every: "week"
+});
+        };
+
+    
+</script>
+</body>
+</html>

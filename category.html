@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title></title>
+</head>
+<body>
+
+<div class="navigation">
+    <ul id="categories-container"></ul>
+</div>
+
+<div class="buttongroup" id="meals-container"></div>
+
+
+<script>
+
+    $(document).ready(function () {
+
+
+        var data = $.getJSON("js/data.json", function (json) {
+
+            $.each(json, function (index, item) {
+
+                $("#categories-container").append(
+                    "<li><a id='nav-link" + item.id + "' href='category.html?id=" + item.id + "'>" + item.name + "</a></li>");
+
+
+                if (item.id == getUrlValue('id')) {
+                    document.title = item.name;
+                    $("#nav-link" + item.id).css("color", "yellow");
+
+                    item.meals.forEach(function (item, index, array) {
+                        $("#meals-container").append(
+                            "<a href='meal.html?id="
+                            + item.id + "'> <button class='btn-meal' style='opacity: 0.6;background: url(img/"
+                            + item.img + ");'> " + item.name + " </button></a>");
+
+                    });
+                }
+
+
+            });
+
+        });
+
+
+    });
+    
+    
+</script>
+
+</body>
+</html>
