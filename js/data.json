@@ -1,0 +1,259 @@
+[
+  {
+    "id": "salads",
+    "name": "Salads",
+    "meals": [
+      {
+        "id": "caesar_salad",
+        "name": "Caesar Salad",
+        "img": "caesar_salad.gif",
+        "ingredients": [
+          "Iceberg lettuce",
+          "Chicken",
+          "Croutons",
+          "Mayo"
+        ]
+      },
+      {
+        "id": "cobb_salad",
+        "name": "Cobb Salad",
+        "img": "cobb_salad.gif",
+        "ingredients": [
+          "Lettuce",
+          "Tomato",
+          "Cucumber",
+          "Bacon",
+          "Eggs"
+        ]
+      },
+      {
+        "id": "greek_salad",
+        "name": "Greek Salad",
+        "img": "greek_salad.jpg",
+        "ingredients": [
+          "Cucumbers",
+          "Tomatoes",
+          "Cheese",
+          "Green peppers",
+          "Green olives"
+        ]
+      },
+      {
+        "id": "mexican_salad",
+        "name": "Mexican Salad",
+        "img": "mexican_salad.jpg",
+        "ingredients": [
+          "Black beans",
+          "Corn",
+          "Limes",
+          "Avocadoes",
+          "Tomatoes",
+          "Red peppers"
+        ]
+      },
+      {
+        "id": "potato_salad",
+        "name": "Potato Salad",
+        "img": "potato_salad.jpg",
+        "ingredients": [
+          "Potato",
+          "Chives",
+          "Mayo",
+          "Lemons"
+        ]
+      },
+      {
+        "id": "bulgarian_salad",
+        "name": "Bulgarian Salad",
+        "img": "shopska_salad.png",
+        "ingredients": [
+          "Cucumbers",
+          "Tomatoes",
+          "Green peppers",
+          "Cheese"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dishes",
+    "name": "Dishes",
+    "meals": [
+      {
+        "id": "lasagna",
+        "name": "Lasagna",
+        "img": "lasagna.jpg",
+        "ingredients": [
+          "Tomatoes",
+          "Oregano",
+          "Parsley",
+          "Cheese",
+          "Minced meat",
+          "Lasagna sheets"
+
+        ]
+      },
+      {
+        "id": "fos",
+        "name": "French onion soup",
+        "img": "french_onion.jpg",
+        "ingredients": [
+          "Tomatoes",
+          "Oregano",
+          "Parsley",
+          "Cheese"
+        ]
+      },
+      {
+        "id": "mrst",
+        "name": "Mushroom risotto",
+        "img": "mrst.jpg",
+        "ingredients": [
+          "Mushrooms",
+          "Rice",
+          "Olive oil",
+          "Cloves",
+          "White wine"
+        ]
+      },
+      {
+        "id": "pasta_carbonara",
+        "name": "Pasta Carbonara",
+        "img": "pasta_carbonara.jpg",
+        "ingredients": [
+          "Pasta",
+          "Parmesan",
+          "Black pepper",
+          "Pancetta",
+          "Eggs"
+        ]
+      },
+      {
+        "id": "pizza",
+        "name": "Pizza",
+        "img": "pizza.jpg",
+        "ingredients": [
+          "Flour",
+          "Yeast",
+          "Salt",
+          "Peppers",
+          "Mozzarella",
+          "Basil",
+          "Tomatoes"
+        ]
+      },
+      {
+        "id": "roast_beef",
+        "name": "Roast beef",
+        "img": "roast-beef.jpg",
+        "ingredients": [
+          "Beef",
+          "Black pepper",
+          "Red pepper",
+          "Oregano",
+          "Chili flakes",
+          "Lemon",
+          "Potatoes"
+        ]
+      },
+      {
+        "id": "fish_fillets",
+        "name": "Fish fillets",
+        "img": "fish_fillets.jpg",
+        "ingredients": [
+          "Fish",
+          "Lemons",
+          "Onions"
+        ]
+      },
+      {
+        "id": "fried_chicken",
+        "name": "Fried chicken",
+        "img": "fried_chicken.jpg",
+        "ingredients": [
+          "Chicken",
+          "Flour",
+          "Oil",
+          "Salt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "desserts",
+    "name": "Desserts",
+    "meals": [
+      {
+        "id": "banana_split",
+        "name": "Banana split",
+        "img": "banana-split.jpg",
+        "ingredients": [
+          "Bananas",
+          "Ice cream",
+          "Sprinkles"
+        ]
+      },
+      {
+        "id": "blueberry_cupcake",
+        "name": "Blueberry cupcake",
+        "img": "blueberry_cupcake.jpeg",
+        "ingredients": [
+          "Flour",
+          "Eggs",
+          "Milk",
+          "Baking powder",
+          "Vanilla",
+          "Blueberries"
+        ]
+      },
+      {
+        "id": "cheesecake",
+        "name": "Cheesecake",
+        "img": "cheesecake.jpg",
+        "ingredients": [
+          "Cream cheese",
+          "Graham crackers",
+          "Butter",
+          "Eggs",
+          "Lemons",
+          "Blueberry jam"
+        ]
+      },
+      {
+        "id": "chocolate_souffle",
+        "name": "Chocolate souffle",
+        "img": "chocolate_souffle.jpg",
+        "ingredients": [
+          "Flour",
+          "Baking powder",
+          "Butter",
+          "Eggs",
+          "Milk"
+        ]
+      },
+      {
+        "id": "creme_caramel",
+        "name": "Creme Caramel",
+        "img": "creme_caramel.jpg",
+        "ingredients": [
+          "Milk",
+          "Eggs",
+          "Sugar",
+          "Vanilla"
+        ]
+      },
+      {
+        "id": "pancakes",
+        "name": "Pancakes",
+        "img": "pancakes.png",
+        "ingredients": [
+          "Flour",
+          "Baking powder",
+          "Eggs",
+          "Milk",
+          "Butter"
+        ]
+      }
+    ]
+  }
+]
