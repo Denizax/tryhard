@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('font/WebFont.eot');
+	src: url('font/WebFont.eot?iefix') format('eot'),
+	     url('font/WebFont.woff') format('woff'),
+	     url('font/WebFont.ttf') format('truetype'),
+	     url('font/WebFont.svg#webfont') format('svg');
+}
+
+    body {
+        background-color:#ff6666;
+        margin: 0;
+        padding: 0;
+        width:320px;
+        
+}
+    
+    .nav img{
+        
+        width:200px;
+        animation: logoAnimation 1.5s 1s 1;
+        
+    }
+    
+    @keyframes logoAnimation{
+        0%{
+            color: darkturquoise;
+            transform:rotate(0deg);
+    
+        }
+        
+        100%{
+            color: aqua;
+            transform: rotate(360deg);
+        }
+    }
+
+    .nav {
+        padding-top: 20px;
+        font-size: 30px;
+        list-style-type:none;
+        width:200px;
+        margin: auto;
+        text-align:center;
+        font-family: 'MyWebFont', Roboto, sans-serif;
+        
+        
+
+    }
+
+    .navigation {
+        
+        font-size:18px;
+        text-align:center;
+        font-family: sans-serif;
+       font-family: 'Roboto';
+
+    }
+
+    .navigation li {
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        
+        
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .container {
+        text-align: center;
+        padding-top: 20px;
+
+    }
+
+    .btn-meal{
+        display: block;
+        text-decoration: none;
+        width: 360px;
+        height: 130px;
+        margin: 0px auto;
+        padding: 20px;
+        color: white;
+        font-family: 'Roboto';
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+        font-size: 30px;
+        border: 3px solid white;
+         
+    }
+
+
+
+
+    .container {
+        color: white;
+        font-size: 25px;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container a {
+        color: #33cccc;
+        padding-top: 20px;
+        
+    }
+
+    .input {
+        position: relative;
+        top: 130px;
+        font-family: 'Roboto', sans-serif;
+        
+        text-align: center;
+
+    }
+
+    label {
+        color: white;
+        font-size:35px;
+        
+
+    }
+
+    input {
+        margin-top: 50px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #33cccc;
+        border: 2px solid red;
+        border-radius: 4px;
+
+    }
+
+    #schedule_btn {
+        margin-top: 60px;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        background-color: #33cccc;
+
+    }
+
+
+
+
